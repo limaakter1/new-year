@@ -1,4 +1,76 @@
 body{
     font-family: "Inter", sans-serif;
+    margin: 0;
 
 }
+/* header part style */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.848),rgba(62, 62, 62, 0)),url('./resources/Banner\ Image.png');
+    
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 0px 100px 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner {
+    color: white;
+    
+   }
+   .banner-title{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  
+   }
+   .banner-party{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.banner-celebration{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+/* categories part style */
+.catergories{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.off{
+    font-size: 70px;
+    font-weight: bold;
+    color: #FF0000;
+    text-align: center;
+    margin-bottom: 0;
+}
+.deals{
+    font-size: 20px;
+    color: #FF0000;
+    font-weight: 450;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+.all-categerories{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.catergories-image img{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
