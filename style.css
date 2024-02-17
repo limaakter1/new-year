@@ -165,9 +165,15 @@ header{
     padding-right: 70px;
     
 }
+.new-year-offer-one > h2{
+    font-size: 30px;
+}
 .new-year-offer-two{
     width:43% ;
     padding-left: 70px;
+}
+.new-year-offer-two>h2{
+    font-size: 30px;
 }
 .new-year-offer-img img{
     width: 350px;
@@ -175,4 +181,33 @@ header{
     border:15px solid #FF0000;
     border-radius: 50%;
 }
+/* portfolio part style */
+.portfolio{
+    margin: 100px 100px 0px 100px;
 
+}
+.portfolio-para{
+   width: 60%; 
+
+}
+.portfolio-title{
+    font-size: 30px;
+}
+.portfolio-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.portfolio-image img{
+    width: 400px;
+
+}
+.portfolio-image{
+    margin: 15px 10px;
+    transition: 0.2s ease;
+}
+.portfolio-image:hover{
+    border: 10px solid rgb(157, 53, 16);
+    transition: 0.2s ease;
+    border-radius: 25px;
+}
