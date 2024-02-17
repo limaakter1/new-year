@@ -132,6 +132,7 @@ header{
     text-align: center;
     font-size: 24px;
     font-weight: 600;
+    margin-top: 0;
 }
 .orange{
     color: #FF0000;
@@ -148,4 +149,30 @@ header{
     padding: 10px 20px;
     font-weight: 700;
     font-size: 16px;
+    border-radius: 10px;
 }
+/* offer part style */
+.new-year-offers{
+    margin: 100px 100px 0px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.new-year-offer-one{
+    width:43% ;
+    padding-right: 70px;
+    
+}
+.new-year-offer-two{
+    width:43% ;
+    padding-left: 70px;
+}
+.new-year-offer-img img{
+    width: 350px;
+    padding: 25px;
+    border:15px solid #FF0000;
+    border-radius: 50%;
+}
+
